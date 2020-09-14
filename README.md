@@ -20,7 +20,7 @@ A chatbot made using the Chatterbot library in Python and locally hosted using S
 You can try: [PythonAnywhere](https://www.pythonanywhere.com/), [AWS](https://aws.amazon.com/getting-started/projects/deploy-python-application/) or [Heroku](https://devcenter.heroku.com/articles/getting-started-with-python#introduction) to host your application.
 
 
-<img src="https://github.com/jojo96/Chatterbot-Streamlit/blob/master/bot.png" width=49% height=600 alt="Normal">
+<img src="https://github.com/jojo96/Chatterbot-Streamlit/blob/master/bot.png" width=99% height=600 alt="Normal">
 
 ## License
 This source is free to use, but ChatterBot does have a license which still applies and can be found on the [LICENSE](https://github.com/gunthercox/ChatterBot/blob/master/LICENSE) page.
