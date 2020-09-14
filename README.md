@@ -19,7 +19,8 @@ A chatbot made using the Chatterbot library in Python and locally hosted using S
 ## How do I deploy this to a web server?
 You can try: [PythonAnywhere](https://www.pythonanywhere.com/), [AWS](https://aws.amazon.com/getting-started/projects/deploy-python-application/) or [Heroku](https://devcenter.heroku.com/articles/getting-started-with-python#introduction) to host your application.
 
-
+## Training
+The training has been done using conversations from datasets collected during ConvAI2 competition.[Dataset](http://convai.io/data/)
 <img src="https://github.com/jojo96/Chatterbot-Streamlit/blob/master/bot.png" width=99% height=600 alt="Normal">
 
 ## License
