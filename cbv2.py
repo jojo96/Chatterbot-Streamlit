@@ -30,7 +30,7 @@ NLP Bot is an NLP conversational chatterbot. Initialize the bot by clicking the 
 
 bot = ChatBot(name = 'PyBot', read_only = False,preprocessors=['chatterbot.preprocessors.clean_whitespace','chatterbot.preprocessors.convert_to_ascii','chatterbot.preprocessors.unescape_html'], logic_adapters = ['chatterbot.logic.MathematicalEvaluation','chatterbot.logic.BestMatch'])
 #corpus_trainer = ChatterBotCorpusTrainer(bot) 
-#corpus_trainer.train('chatterbot.corpos.english') 
+#corpus_trainer.train('chatterbot.corpus.english') 
 #return bot
 
 
