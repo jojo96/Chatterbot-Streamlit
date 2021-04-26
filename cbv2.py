@@ -8,8 +8,8 @@ def get_text():
     input_text = st.text_input("You: ","So, what's in your mind")
     return input_text 
 
-data = json.loads(open(r'C:\Users\Jojo\Desktop\projects\chatbot\chatbot\chatbot\data_tolokers.json','r').read())#change path accordingly
-data2 = json.loads(open(r'C:\Users\Jojo\Desktop\projects\chatbot\chatbot\chatbot\sw.json','r').read())#change path accordingly
+#data = json.loads(open(r'C:\Users\Jojo\Desktop\projects\chatbot\chatbot\chatbot\data_tolokers.json','r').read())#change path accordingly
+#data2 = json.loads(open(r'C:\Users\Jojo\Desktop\projects\chatbot\chatbot\chatbot\sw.json','r').read())#change path accordingly
 
 tra = []
 for k, row in enumerate(data):
@@ -38,8 +38,8 @@ ind = 1
 if st.sidebar.button('Initialize bot'):
     #do something
     #bot = ChatBot(name = 'PyBot', read_only = False,preprocessors=['chatterbot.preprocessors.clean_whitespace','chatterbot.preprocessors.convert_to_ascii','chatterbot.preprocessors.unescape_html'], logic_adapters = ['chatterbot.logic.MathematicalEvaluation','chatterbot.logic.BestMatch'])
-    #corpus_trainer = ChatterBotCorpusTrainer(bot) 
-    #corpus_trainer.train('chatterbot.corpos.english') 
+    corpus_trainer = ChatterBotCorpusTrainer(bot) 
+    corpus_trainer.train('chatterbot.corpos.english') 
     trainer2 = ListTrainer(bot) 
     trainer2.train(tra)
     st.title("Your bot is ready to talk to you")
